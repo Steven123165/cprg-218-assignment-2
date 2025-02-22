@@ -27,3 +27,19 @@ body {
     max-width: 1200px;
     margin: auto;
 }
+main figure {
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    border: 5px solid #d9043d;
+}
+aside {
+    background-color: #97bf04;
+    padding: 15px;
+    margin-top: 20px;
+}
