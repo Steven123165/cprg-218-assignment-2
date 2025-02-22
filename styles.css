@@ -86,3 +86,16 @@ footer {
         margin-left: 20px;
     }
 }
+@media (min-width: 1000px) {
+    #container {
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
+
+    aside {
+        order: 2;
+        width: auto;
+    }
+}
