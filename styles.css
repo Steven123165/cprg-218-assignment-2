@@ -12,6 +12,7 @@ body {
     padding: 1rem;
     gap: 1rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -61,8 +62,7 @@ footer {
 }
 @media (min-width: 768px) {
     .header-container {
-        flex-wrap: nowrap;
-        justify-content: flex-start;
+        flex-direction: row;
     }
 
     #container {
