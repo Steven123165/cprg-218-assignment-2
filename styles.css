@@ -42,9 +42,7 @@ main figure {
 
 main img {
     width: 100%;
-    max-width: 300px;
     display: block;
-    margin: auto;
     border: 5px solid #d9043d;
 }
 aside {
@@ -67,7 +65,7 @@ footer {
 
     #container {
         flex-direction: row;
-        justify-content: space-between;
+        align-items: flex-start;
     }
 
     main {
@@ -79,15 +77,15 @@ footer {
         width: 100%;
     }
 
-    main figure {
+    figure {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+
+        
     }
 
     main img {
         max-width: 300px;
+        max-height: 300px;
     }
 
     figcaption {
@@ -98,13 +96,11 @@ footer {
 @media (min-width: 1000px) {
     #container {
         flex-direction: row;
-        display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 20px;
     }
 
     aside {
-        order: 2;
         width: auto;
     }
 }
